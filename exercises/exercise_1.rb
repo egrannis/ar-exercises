@@ -11,7 +11,9 @@ store1 = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: tru
 store2 = Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
 store3 = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
-# Output (puts) the number of the stores using ActiveRecord's count method, to ensure that there are three stores in the database
-# puts Store.count(:all)
-puts store2.id
-# puts Store.all.count other way to write this
+# Output (puts) the number of the stores using ActiveRecord's count method, to ensure that there are three stores in the 
+
+puts Store.count(:all)
+# puts Store.all.count is the other way to write this
+
+# puts store2.id
