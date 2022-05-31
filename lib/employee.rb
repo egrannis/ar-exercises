@@ -1,4 +1,4 @@
-class Employee < ActiveRecord::Base
+class Employee < ActiveRecord::Base #looking at subclass base and extending off of that for empoyee
   belongs_to :store
   validates :first_name, presence: true
   validates :last_name, presence: true
@@ -6,7 +6,10 @@ class Employee < ActiveRecord::Base
   validates_associated :store
 end
 
-# question: what is diff between is_integer and only_integer?
+# symbol in ruby is an immutable string
+
+
+# question: what is diff between is_integer and only_integer? --> possible that it was an older version 
 
 # Employees must always have a first name present
 # Employees must always have a last name present

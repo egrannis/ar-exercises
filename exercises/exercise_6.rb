@@ -11,8 +11,8 @@ puts "----------"
 # Your code goes here ...
 # Add data into employees
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store2.employees.create(first_name: "Alex", last_name: "Grannis", hourly_rate: 600)
+@store_a.employees.create(first_name: "Alex", last_name: "Grannis", hourly_rate: 600)
 @store1.employees.create(first_name: "Monica", last_name: "Grannis", hourly_rate: 600)
-@store2.employees.create(first_name: "Jon", last_name: "Grannis", hourly_rate: 700)
+@store_a.employees.create(first_name: "Jon", last_name: "Grannis", hourly_rate: 700)
 @store1.employees.create(first_name: "Saul", last_name: "Muskin", hourly_rate: 200)
-@store2.employees.create(first_name: "Kali", last_name: "Grannis", hourly_rate: 50)
+@store_a.employees.create(first_name: "Kali", last_name: "Grannis", hourly_rate: 50)
